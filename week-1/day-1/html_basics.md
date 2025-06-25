@@ -2,8 +2,11 @@
 
 Basic HTML tags were covered, including: 
 
-1. Headings <h1>, <h2>, ... <h6>
-2. Paragraph <p>
-3. Adding Links using Anchor <a> and href
-4. Adding Images <img>
-5. Adding Videos <video>
+1. Headings
+2. Paragraph
+3. Adding Links using Anchor and href
+4. Adding Images
+5. Adding Videos
+6. Lists 
+    1. Ordered Lists
+    2. Unordered Lists
