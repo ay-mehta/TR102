@@ -17,5 +17,5 @@ Created an HTML file demonstrating nested ordered and unordered lists with multi
 
 You can view the output and code here:
 
-- [View Webpage (GitHub Pages)](https://github.com/ay-mehta/TR102/blob/main/week-1/day-1/html-nested-lists-demo.html)
+- [View Webpage (GitHub Pages)](https://github.com/ay-mehta/TR102/week-1/day-1/html-nested-lists-demo.html)
 - [View Source Code on GitHub](html-nested-lists-demo.html) <!-- same if it's public -->
