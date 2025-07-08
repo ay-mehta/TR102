@@ -1,6 +1,13 @@
-# Flex & Responsive Layout Practice
+# Flexbox and Responsive Layout Practice
 
-This session focused on mastering **Flexbox** for webpage layout, along with **form styling** and **responsive design techniques**. Below are the three tasks completed during the exercise:
+## What Was Done
+
+- Applied **Flexbox** to arrange elements horizontally and vertically.
+- Implemented `flex`, `justify-content`, `align-items`, and `flex-wrap` for layout control.
+- Used **media queries** to make layouts adapt to various screen sizes.
+- Practiced **semantic HTML structure** and ensured proper element nesting.
+- Styled form inputs (`input[type=email]`, `input[type=submit]`) with hover transitions.
+- Ensured accessibility and professionalism by using appropriate `alt` text and naming conventions for image files.
 
 ---
 
@@ -12,8 +19,7 @@ This session focused on mastering **Flexbox** for webpage layout, along with **f
 - Included a section on how bankers build client trust through marketing strategies.
 - **Responsive Version** also created to switch layout direction for screens smaller than 800px.
 
-**File Name:** `banker-marketing.html`  
-**Image File Renamed:** `professional-woman.webp`
+- [View Source Code on GitHub](about-bankers.html)
 
 ---
 
@@ -23,8 +29,7 @@ This session focused on mastering **Flexbox** for webpage layout, along with **f
 - Incorporated an email submission form with styled inputs and hover effects.
 - Layout organized using Flexbox for clear content separation between image and form section.
 
-**File Name:** `amortization-calculator.html`  
-**Image File Renamed:** `finance-analyst.webp`
+- [View Source Code on GitHub](amortization-computation.html)
 
 ---
 
@@ -34,15 +39,4 @@ This session focused on mastering **Flexbox** for webpage layout, along with **f
 - Showcased brand description alongside a burger image using a Flexbox layout.
 - Styled call-to-action button with hover transition effects for interactivity.
 
-**File Name:** `bombastic-burger-story.html`  
-**Image File Renamed:** `bombastic-burger.webp`
-
----
-
-## Concepts Covered
-
-- Flexbox layout: `flex`, `justify-content`, `align-items`, `flex-wrap`, and responsive behavior.
-- Semantic HTML structure.
-- Form styling: `input[type=email]`, `input[type=submit]`, hover transitions.
-- Image accessibility and proper naming conventions for professionalism and clarity.
-
+- [View Source Code on GitHub](bombastic-burger-story.html)
