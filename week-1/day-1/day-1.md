@@ -1,21 +1,25 @@
-# Week 1 - Day 1
+# HTML Nested Lists Practice
 
-## Topics Covered
+## What Was Done
 
-- Introduction to HTML structure
-- Headings and paragraph tags
-- Anchors and hyperlinks
-- Images and video embedding
-- Ordered and unordered lists
-- Multi-level list nesting
+- Practiced creating **ordered** and **unordered lists** using semantic HTML.
+- Explored different list types including:
+  - Roman numerals (`<ol type="i">`)
+  - Alphabetical (`<ol type="a">`)
+  - Circular bullets (`<ul type="circle">`)
+  - Square bullets (`<ul type="square">`)
+  - Disc bullets (`<ul type="disc">`)
+- Nested lists up to **four levels deep** to understand structure and hierarchy.
+- Ensured proper indentation and closing of HTML tags to maintain valid markup.
+- Improved understanding of how nested lists render visually in browsers.
 
-## Task Summary
+---
 
-Created an HTML file demonstrating nested ordered and unordered lists with multiple levels of indentation and varying list types.
+## Task: Complex List Structure
 
-## Output
+- Created a structured list titled **"List Example"**.
+- Used `<ol>` and `<ul>` elements to create a visually layered and logically grouped set of items.
+- Combined various list styles within nested levels for clarity and demonstration.
+- Ensured list items at all depths are properly readable and visually distinct.
 
-You can view the output and code here:
-
-- [View Webpage (GitHub Pages)](https://github.com/ay-mehta/TR102/week-1/day-1/html-nested-lists-demo.html)
-- [View Source Code on GitHub](html-nested-lists-demo.html) <!-- same if it's public -->
+- [View Source Code on GitHub](html-nested-lists-demo.html)
