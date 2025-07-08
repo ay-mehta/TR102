@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dynamic College Wrap</title>
+    <style>
+        * {
+            margin: 0px;
+            padding: 0px;
+            box-sizing: border-box;
+        }
+        .container {
+            border: 2px solid red;
+            justify-content: space-around;
+            display: flex;
+            background-color: aqua;
+        }
+        .box {
+            border: 2px solid blue;
+            margin: auto;
+            width: 30%;
+        }
+        .box img {
+            width: 100%;
+        }
+        @media screen and (min-width: 0px) and (max-width: 500px) {
+            .container {
+                background-color: purple;
+                flex-direction: column;
+            }
+            .box {
+                width: 60%
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box">
+            <img src="gne.webp" alt="GNDEC">
+            <p>Guru Nanak Dev Engineering College</p>
+        </div>
+        <div class="box">
+            <img src="gne.webp" alt="GNDEC">
+            <p>Guru Nanak Dev Engineering College</p>
+        </div>
+        <div class="box">
+            <img src="gne.webp" alt="GNDEC">
+            <p>Guru Nanak Dev Engineering College</p>
+        </div>
+    </div>
+</body>
+</html>

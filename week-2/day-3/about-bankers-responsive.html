@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bankers</title>
+    <style>
+        * {
+            margin: 0px;
+            padding: 0px;
+            box-sizing: border-box;
+        }
+        .container {
+            padding: 50px;
+            border: 2px none;
+            /* justify-items: center; */
+            text-align: center;
+        }
+        .container h1 {
+            color: orange;
+            font-family: arial;
+            font-size: 50px;
+        }
+        .container p {
+            color: gray;
+            font-size: 20px;
+            font-family: arial;
+            /* text-align: center; */
+            width: 60%;
+            margin: auto;
+        }
+        .holder {
+            padding: 50px;
+            border: 2px none;
+            justify-items: center;
+            display: flex;
+            justify-content: space-evenly;
+        }
+        .box {
+            width: 40%;
+            border: 2px none;
+        }
+        .box img {
+            width: 100%;
+            height: auto;
+        }
+        .box h1 {
+            font-family: arial;
+            padding: 20px;
+        }
+        .box p {
+            font-family: arial;
+            padding: 10px;
+            font-size: 15px;
+            color: gray;
+            line-height: 1.2;
+        }
+        @media screen and (min-width: 0px) and (max-width: 800px) {
+            .container {
+                flex-direction: column;
+            }
+            .container p {
+                width: 90%;
+            }
+            .holder {
+                flex-direction: column;
+            }
+            .box {
+                width: 90%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>About Us</h1>
+        <p>Bankers are the backbone of the financial industry, working behind the scenes to manage and facilitate complex financial transactions, investments, and loans.</p>
+    </div>
+    <div class="holder">
+        <div class="box">
+            <img src="female-banker.webp" alt="Female Banker">
+        </div>
+        <div class="box">
+            <h1>We Solve Your Problems</h1>
+            <p>We believe that effective banker marketing is about building trust and credibility with clients, understanding their financial needs, and providing personalized solutions to meet those needs. This requires a deep understanding of the client's business, industry, and goals, as well as a strong ability to communicate complex financial concepts in a clear and concise manner.</p>
+            <p>By focusing on relationship-building and providing value-added services, we can differentiate ourselves from competitors, increase customer loyalty, and drive business growth. We leverage digital channels, such as social media and email marketing, to stay top of mind with clients, and partner with other financial institutions and industry experts to offer a comprehensive range of services that meet their unique needs.</p>
+        </div>
+    </div>
+</body>
+</html>
