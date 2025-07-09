@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vegefoods Clone</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <style>
+        * {
+            margin: 0px;
+            padding: 0px;
+            box-sizing: border-box;
+        }
+        .banner {
+            border: 2px solid none;
+            justify-content: space-evenly;
+            display: flex;
+            align-items: center;
+            background-color: yellowgreen;
+        }
+        .banner .contact, 
+        .banner .mail, 
+        .banner .assurance {
+            height: 80%;
+            margin: auto;
+            border: 1px solid none;
+            display: flex;
+            align-items: center;
+            font-family: arial;
+        }
+        .banner .contact i, 
+        .banner .mail i {
+            font-size: 8px;
+            color: white;
+            padding: 6 px;
+        }
+        .banner .contact p, 
+        .banner .mail p, 
+        .banner .assurance p {
+            font-size: 10px;
+            color: white;
+            padding: 6px;
+            float: left;
+        }
+        @media screen and (min-width: 0px) and (max-width: 630px) {
+            .banner {
+                flex-direction: column;
+            }
+            .banner .contact,
+            .banner .mail,
+            .banner .assurance {
+                width: 80%;
+                float: left;
+            }
+        }
+        nav {
+            border: 2px solid none;
+            justify-content: space-evenly;
+            display: flex;
+            align-items: center;
+            background-color: white;
+        }
+        .logo {
+            width: 20%;
+            border: 2px solid none;
+        }
+        .logo p {
+            padding: 8px;
+            font-family: arial;
+            color: yellowgreen;
+            font-size: 24px;
+            font-weight: 800;
+        }
+        .logo p:hover {
+            color: black;
+            font-size: 24px;
+            font-weight: 800;
+            transition: 0.5s;
+        }
+        .menu {
+            padding: 8px;
+            width: 60%;
+            border: 2px solid none;
+        }
+        .menu ul {
+            padding: 8px;
+            width: 80%;
+            border: 2px solid none;
+            display: flex;
+            justify-content: space-evenly;
+            float: right;
+        }
+        .menu ul li {
+            list-style: none;
+        }
+        .menu ul li a {
+            text-decoration: none;
+            display: flex;
+            color: black;
+            font-size: 12px;
+            font-family: arial;
+        }
+        .menu-item {
+            display: flex;
+            float: right;
+            padding-right: 10%;
+            font-family: arial;
+            color: gray;
+        }
+        @media screen and (min-width: 930px) {
+            .menu-item {
+                display: none;
+            }
+        }
+        @media screen and (min-width: 0px) and (max-width: 930px) {
+            nav {
+                background-color: black;
+            }
+            .logo {
+                color: white;
+            }
+            .menu ul {
+                display: none;
+            }
+        }
+        @media screen and (max-width: 400px) {
+            nav {
+                flex-direction: column;
+            }
+            .logo, .menu {
+                width: 90%;
+                margin: auto;
+            }
+            .menu-item {
+                float: left;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="banner">
+        <div class="contact">
+            <pre> </pre>
+            <i class="fa-solid fa-phone"></i>
+            <pre> </pre>
+            <p>+123 456 789</p>
+        </div>
+        <div class="mail">
+            <pre> </pre>
+            <i class="fa-solid fa-paper-plane"></i>
+            <pre> </pre>
+            <p>YOUREMAIL@EMAIL.COM</p>
+        </div>
+        <div class="assurance">
+            <p>3-5 BUSINESS DAYS DELIVERY AND FREE RETURNS</p>
+        </div>
+    </div>
+    <nav>
+        <div class="logo">
+            <p>VEGEFOODS</p>
+        </div>
+        <div class="menu">
+            <ul>
+                <li><a href="vegefoods-clone.html" target="_self">HOME</a></li>
+                <li><a href="">SHOP</a></li>
+                <li><a href="">ABOUT</a></li>
+                <li><a href="">BLOG</a></li>
+                <li><a href="">CONTACT</a></li>
+                <li><a href="">
+                    <i class="fa-solid fa-cart-shopping"></i>
+                    <pre> </pre>
+                    <p>[0]</p>
+                </a></li>
+            </ul>
+            <div class="menu-item">
+                <i class="fa-solid fa-bars"></i>
+                <pre> </pre>
+                <p>MENU</p>
+            </div>
+        </div>
+    </nav>
+</body>
+</html>
