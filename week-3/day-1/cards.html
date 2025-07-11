@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cards</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <style>
+        * {
+            margin: 0px;
+            padding: 0px;
+            box-sizing: border-box;
+        }
+        .container {
+            margin-top: 15vh;
+            margin-left: 20vh;
+            margin-right: 20vh;
+            height: 60vh;
+            border: 2px solid none;
+            display: flex;
+            justify-content: space-around;
+            background-color: white;
+        }
+        .card {
+            position: relative;
+            height: 100%;
+            width: 30%;
+            border: 2px solid darkgray;
+            border-radius: 8px;
+            overflow: hidden; 
+            display: flex;
+            flex-direction: column;
+        }
+        .card img {
+            position: relative;
+            height: 50%;
+        }
+        .card .flag {
+            position: absolute;
+            left: 0;
+            top: 45%;
+            align-items: center;
+            background-color: orange;
+            height: 6vh;
+            width: 9vh;
+            border: none;
+            border-radius: 0 24px 24px 0;
+            cursor: pointer;
+            font-size: 22px;
+        }
+        .card button i {
+            color: white;
+        }
+        .card .box {
+            position: relative;
+            height: 50%;
+            bottom: 0p;
+            border: 2px solid none;
+            text-align: center;
+        }
+        .card .box h1 {
+            font-size: 20px;
+            font-family: arial;
+            font-weight: 600;
+            color: dimgray;
+            margin-top: 10%;
+        }
+        .card .box p {
+            width: 80%;
+            margin: auto;
+            font-size: 14px;
+            font-family: arial;
+            color: gray;
+            margin-top: 10%;
+        }
+        .card .box button {
+            font-size: 16px;
+            font-family: arial;
+            color: white;
+            background-color: slategray;
+            margin-top: 8%;
+            padding: 4%;
+            padding-left: 8%;
+            padding-right: 8%;
+            border: none;
+            border-radius: 8px;
+        }
+        .card .box button:hover {
+            background: orange;
+            transition: 0.26s;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="card">
+            <img src="ship.webp" alt="Cargo Ship">
+            <button class="flag">
+                <i class="fa-solid fa-ship"></i>
+            </button>
+            <div class="box">
+                <h1>OCEAN FREIGHT</h1>
+                <p>We offer reliable ocean freight services to help you transport your goods safely and efficiently.</p>
+                <button>Read more</button>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="plane.webp" alt="Airbus">
+            <button class="flag">
+                <i class="fa-solid fa-plane"></i>
+            </button>
+            <div class="box">
+                <h1>AIR FREIGHT</h1>
+                <p>We offer reliable air freight services to help you transport your goods safely and efficiently.</p>
+                <button>Read more</button>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="truck.webp" alt="Truck">
+            <button class="flag">
+                <i class="fa-solid fa-truck"></i>
+            </button>
+            <div class="box">
+                <h1>STREET FREIGHT</h1>
+                <p>We offer reliable street freight services to help you transport your goods safely and efficiently.</p>
+                <button>Read more</button>
+            </div>
+        </div>
+
+    </div>
+</body>
+</html>
