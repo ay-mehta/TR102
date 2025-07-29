@@ -1,8 +1,3 @@
----
-layout: default
-title: day-1
----
-
 # HTML Nested Lists Practice
 
 ## What Was Done
