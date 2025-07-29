@@ -1,3 +1,8 @@
+---
+layout: default
+title: day-1
+---
+
 # HTML Nested Lists Practice
 
 ## What Was Done
@@ -12,8 +17,6 @@
 - Nested lists up to **four levels deep** to understand structure and hierarchy.
 - Ensured proper indentation and closing of HTML tags to maintain valid markup.
 - Improved understanding of how nested lists render visually in browsers.
-
----
 
 ## Task: Complex List Structure
 
