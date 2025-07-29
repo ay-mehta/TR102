@@ -1,3 +1,8 @@
+---
+title: Daily Diary
+layout: default
+---
+
 # TR102 – Daily Diary
 
 This repository documents the daily progress of the **TR102 Summer 4-Week Training Program** on the **MERN Stack**.
