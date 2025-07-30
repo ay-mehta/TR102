@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BASIC DOM</title>
+</head>
+<body>
+    <button id="clickMe">Click Me</button>
+
+    <p id="message" data-role="info">Original Text</p>
+
+    <script>
+
+        let button = document.querySelector('#clickMe');
+
+        button.addEventListener('click', () => {
+            console.log("Button was clicked!");
+
+            let paragraph = document.querySelector('#message');
+            console.log(paragraph.innerText);         // "Original Text"
+            console.log(paragraph.dataset.role);      // "info"
+
+            paragraph.innerText = "Text Updated!";
+        });
+
+    </script>
+</body>
+</html>
