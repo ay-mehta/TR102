@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Mood Selector</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            transition: background-color 0.5s;
+        }
+        .mood-display {
+            font-size: 3rem;
+            margin-top: 1rem;
+        }
+    </style>
+</head>
+<body class="text-center p-5 bg-light">
+
+    <h1>How Are You Feeling?</h1>
+    
+    <div class="btn-group mt-3" role="group">
+        <button class="btn btn-outline-success mood-btn" data-mood="happy">😊 Happy</button>
+        <button class="btn btn-outline-primary mood-btn" data-mood="sad">😢 Sad</button>
+        <button class="btn btn-outline-danger mood-btn" data-mood="angry">😠 Angry</button>
+    </div>
+
+    <div id="moodEmoji" class="mood-display mt-4">🤔</div>
+    <div id="moodText" class="lead">Select your mood</div>
+
+    <script>
+        class MoodHandler {
+            constructor(emojiElement, textElement, bodyElement) {
+                this.emojiElement = emojiElement;
+                this.textElement = textElement;
+                this.bodyElement = bodyElement;
+            }
+
+            setMood(mood) {
+                let emoji = "🤔";
+                let message = "Neutral";
+                let bgClass = "bg-light";
+
+                switch(mood) {
+                    case "happy":
+                        emoji = "😊";
+                        message = "You're feeling great!";
+                        bgClass = "bg-warning-subtle";
+                        break;
+                    case "sad":
+                        emoji = "😢";
+                        message = "Hope you feel better soon.";
+                        bgClass = "bg-primary-subtle";
+                        break;
+                    case "angry":
+                        emoji = "😠";
+                        message = "Take a deep breath...";
+                        bgClass = "bg-danger-subtle";
+                        break;
+                }
+
+                this.emojiElement.innerText = emoji;
+                this.textElement.innerText = message;
+                this.bodyElement.className = `text-center p-5 ${bgClass}`;
+            }
+        }
+
+        const moodHandler = new MoodHandler(
+            document.getElementById("moodEmoji"),
+            document.getElementById("moodText"),
+            document.body
+        );
+
+        document.querySelectorAll(".mood-btn").forEach(btn => {
+            btn.addEventListener("click", () => {
+                let mood = btn.dataset.mood;
+                moodHandler.setMood(mood);
+            });
+        });
+    </script>
+</body>
+</html>
