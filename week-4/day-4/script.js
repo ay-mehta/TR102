@@ -2,12 +2,9 @@ let color_buttons = document.querySelectorAll('.color-btn');
 let color_display = document.querySelector('#colorDisplay');
 
 color_buttons.forEach(button => {
-    console.log(button.innerText);
-});
-
-color_buttons.forEach(button => {
     button.addEventListener('click', () => {
         let color = button.innerText;
+        console.log(button.innerText);
         color_display.innerText = "Current Color: " + color;
     });
 });
