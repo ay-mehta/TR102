@@ -70,9 +70,5 @@ The diary is organized week-wise. Each week contains markdown files for individu
 ## About the Program
 
 - **Duration:** 4 Weeks  
-- **Focus:** MongoDB, Express.js, React.js, Node.js (MERN)  
+
 - **Mode:** Summer Training / Internship
-
-## Deployment
-
-This site is published using GitHub Pages.

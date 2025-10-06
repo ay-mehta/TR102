@@ -1,58 +1,129 @@
 *, *::before, *::after {
     box-sizing: border-box;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Arial, sans-serif;
     font-weight: normal;
 }
 
 body {
-    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #222; /* Dark background */
     margin: 0;
-    background: linear-gradient(to right, #00AAFF, #00FF6C); 
 }
 
-.calculator-grid {
+.calculator {
+    display: flex;
+    gap: 20px;
+    background-color: #333; /* Dark metallic calculator body */
+    border-radius: 20px;
+    padding: 20px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3); /* Depth shadow */
+}
+
+.main-grid {
     display: grid;
-    justify-content: center;
-    align-content: center;
-    min-height: 100vh;
     grid-template-columns: repeat(4, 100px);
     grid-template-rows: minmax(120px, auto) repeat(5, 100px);
+    gap: 5px;
 }
 
-.calculator-grid > button {
+.scientific-container {
+    background: linear-gradient(135deg, #444, #555); /* Subtle gradient for scientific section */
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.5); /* Inset shadow for depth */
+}
+
+.scientific-grid {
+    display: grid;
+    grid-template-columns: 100px;
+    grid-template-rows: repeat(9, 50px);
+    gap: 5px;
+}
+
+/* Button styling */
+.calculator > div > button {
     cursor: pointer;
     font-size: 2rem;
-    border: 2px solid white;
-    outline: none;
-    background-color: rgba(255, 255, 255, .75);
+    border: none;
+    border-radius: 10px;
+    background-color: #555; /* Dark gray for numbers */
+    color: white;
+    transition: background-color 0.2s, transform 0.1s, box-shadow 0.2s;
 }
 
-.calculator-grid > button:hover {
-    background-color: rgba(255, 255, 255, .9);
+.calculator > div > button:hover {
+    background-color: #666;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.3); /* Subtle glow on hover */
+}
+
+.calculator > div > button:active {
+    transform: scale(0.95); /* Click animation */
+}
+
+/* Color-coding */
+button[data-number] {
+    background-color: #555;
+}
+
+button[data-operation] {
+    background-color: #f93; /* Orange for operations */
+    color: black;
+}
+
+button[data-function], button[data-constant], button[data-bracket] {
+    background: linear-gradient(135deg, #6a6, #4a4); /* Neon green gradient for scientific */
+    color: black;
+    font-weight: bold;
+}
+
+button[data-function]:hover, button[data-constant]:hover, button[data-bracket]:hover {
+    background: linear-gradient(135deg, #7b7, #5b5);
+    box-shadow: 0 0 15px rgba(102, 170, 102, 0.7); /* Stronger neon glow */
+}
+
+button[data-equals] {
+    background-color: #3a3; /* Green for equals */
+    color: white;
+}
+
+button[data-all-clear], button[data-delete] {
+    background-color: #c33; /* Red for clear/delete */
+    color: white;
+}
+
+.scientific {
+    font-size: 1.8rem;
+    border-radius: 8px; /* Slightly smaller radius for a modern look */
 }
 
 .span-two {
     grid-column: span 2;
 }
 
+/* Display styling */
 .output {
     grid-column: 1 / -1;
-    background-color: rgba(0, 0, 0, .75);
+    background-color: #222;
     display: flex;
     align-items: flex-end;
-    justify-content: space-around;
+    justify-content: flex-end;
     flex-direction: column;
-    padding: 10px;
-    word-wrap: break-word;
-    word-break: break-all;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.5); /* LCD effect */
+    overflow: hidden;
 }
 
-.output .previous-operand {
-    color: rgba(255, 255, 255, .75);
-    font-size: 1.5rem;
-}
-
-.output .current-operand {
-    color: white;
+.display {
+    color: #0f0; /* Neon green text */
     font-size: 2.5rem;
+    text-align: right;
+    font-family: 'Courier New', monospace;
+    white-space: nowrap;
+    overflow-x: auto;
+    width: 100%;
+    padding-right: 5px;
 }
