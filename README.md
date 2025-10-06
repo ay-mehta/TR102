@@ -1,14 +1,14 @@
-# Web Development — 4-Week Industrial Training Daily Diary
+# Web Development — 4-Week Training Daily Diary
 
 **Name:** Ayush Mehta  
 **URN:** 2302489  
 **Institute:** Academic Advancement of Information Technology (A2IT), Mohali  
-**Duration:** 4 weeks (intensive practical training)
+**Duration:** 4 weeks
 
 ---
 
 ## Summary
-This document is a concise, professional daily log of the 4-week web development training program. Each entry records the objective, core work done, key takeaways, and deliverables for the day. The diary focuses on practical skills, semantic markup, responsive layout techniques, and foundational JavaScript — all written to be clear and presentable for a GitHub repository.
+This document is a daily log of the 4-week web development training program. Each entry records the objective, core work done, key takeaways, and deliverables for the day. The diary focuses on practical skills, semantic markup, responsive layout techniques, and foundational JavaScript — all written to be clear and presentable for a GitHub repository.
 
 ---
 
