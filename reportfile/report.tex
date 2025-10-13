@@ -91,6 +91,9 @@
 % ------------------------------------------------
 \begin{document}
 
+\pagenumbering{roman}
+\setcounter{page}{1}
+
 \begin{titlepage}
 \begin{center}
     \Large\textbf{FOUR WEEK TRAINING REPORT}\\[3mm]
@@ -189,10 +192,15 @@ Roll No.: 2302489
 % ------------------------------------------------
 % CHAPTERS
 % ------------------------------------------------
+
 \newpage
+
+\pagenumbering{arabic}
+\setcounter{page}{1}
+
 \chapter{INTRODUCTION}
 
-\section{BACKGROUND}
+\section{Background}
 
 The field of web development has rapidly evolved over the past few decades, becoming one of the most dynamic and essential domains in computer science and information technology. The internet, once a medium for static information display, has transformed into a highly interactive platform enabling businesses, educational institutions, and individuals to connect globally.
 
@@ -202,7 +210,7 @@ Today, web development encompasses a wide variety of technologies and frameworks
 
 This training program was designed with beginners in mind, focusing on practical, hands-on exposure to these core technologies. As a newcomer to web development, this four-week program provided me the opportunity to move from zero prior experience to confidently developing simple, well-structured, and visually appealing webpages.
 
-\section{OBJECTIVE OF THE TRAINING}
+\section{Objective of the training}
 
 The primary objective of the four-week industrial training in Web Development was to equip participants with essential skills and foundational understanding of front-end technologies. The training aimed to foster practical learning through continuous implementation rather than purely theoretical study.
 
@@ -220,7 +228,7 @@ The key objectives of the training were as follows:
 
 The training was conducted in a structured, progressive manner—beginning with the basics of markup and styling and culminating in interactive page design and scripting. This approach helped bridge the gap between conceptual understanding and practical application.
 
-\section{OVERVIEW OF WEB DEVELOPMENT TRAINING}
+\section{Overview of Web Development Training}
 
 The web development training covered the three core technologies that form the backbone of front-end development:
 
@@ -234,7 +242,7 @@ Throughout the training, emphasis was placed on clean, semantic coding practices
 
 In the final phase of training, the concepts were integrated through the creation of a \textbf{Scientific Web Calculator} project. This project demonstrated the application of HTML structure, CSS styling, and JavaScript functionality to create a practical and interactive web-based tool.
 
-\section{IMPORTANCE OF WEB DEVELOPMENT IN THE MODERN ERA}
+\section{Importance of Web Development Training in the Modern Era}
 
 Web development is one of the most sought-after skills in the modern digital age. Almost every organization—from startups to global enterprises—relies on web applications to deliver products, services, and information to users worldwide. Understanding the fundamentals of web technologies is essential not only for computer science students but also for anyone interested in digital innovation.
 
@@ -250,7 +258,7 @@ Some of the key reasons for the importance of web development include:
 
 Through this training, I have gained a beginner-level yet substantial understanding of how web pages are structured, styled, and made interactive. This foundation paves the way for future exploration into advanced frameworks and backend technologies.
 
-\section{SCOPE OF TRAINING}
+\section{Scope of Training}
 
 The training covered both theoretical and practical aspects of front-end development, emphasizing implementation-based learning. The scope of work and skill development can be summarized as follows:
 
@@ -289,7 +297,7 @@ The four-week training in Web Development at \textbf{Academic Advancement of Inf
 
 \vspace{5mm}
 \noindent
-\section{WEEK 1 – INTRODUCTION TO HTML AND WEB STRUCTURE}
+\section{Week 1 – Introduction to HTML and Web Structure}
 
 The first week of the training focused on building a foundational understanding of web technologies through \textbf{HTML (HyperText Markup Language)} and basic \textbf{CSS (Cascading Style Sheets)} concepts. The objective was to enable learners to design and structure fully functional static web pages while adhering to semantic and syntactic correctness.
 
@@ -312,7 +320,7 @@ By the end of Week 1, participants could construct and style well-structured mul
 
 \vspace{5mm}
 \noindent
-\section{WEEK 2 – INTRODUCTION TO CSS AND PAGE STYLING}
+\section{Week 2 – Introduction to CSS and Page Styling}
 
 The second week expanded on styling principles through advanced \textbf{CSS} techniques and responsive layout design. The primary focus was on creating aesthetically appealing, device-responsive web pages that maintained consistency and clarity across various screen sizes.
 
@@ -336,7 +344,7 @@ Through repeated hands-on exercises, learners gained confidence in designing fle
 
 \vspace{5mm}
 \noindent
-\section{WEEK 3 – INTRODUCTION TO JAVASCRIPT AND INTERACTIVITY}
+\section{Week 3 – Introduction to Javascript and Interactivity}
 
 The third week transitioned from static design to dynamic web functionality through the introduction of \textbf{JavaScript}. Participants explored scripting fundamentals and practiced creating interactive features that respond to user actions in real time.
 
@@ -359,28 +367,41 @@ By the completion of Week 3, participants were capable of combining HTML, CSS, a
 
 \vspace{5mm}
 \noindent
-\section{WEEK 4 – FINAL PROJECT DEVELOPMENT: SCIENTIFIC WEB CALCULATOR}
+\section{Week 4 – Advanced JavaScript Concepts and Dynamic DOM Manipulation}
 
-The final week was devoted to consolidating all acquired skills through the development of a comprehensive web-based project. The assigned task involved creating a \textbf{Scientific Web Calculator} that integrated structural design, responsive styling, and functional JavaScript logic into a cohesive product.
+The fourth week of the training delved deeper into the \textbf{core JavaScript language features}, \textbf{object-oriented programming}, and \textbf{dynamic Document Object Model (DOM)} manipulation. Learners transitioned from basic scripting toward writing modular, event-driven code that responds intelligently to user interactions and modifies web content dynamically.
 
-\textbf{Project Highlights:}
+\textbf{Topics Covered:}
 \begin{itemize}
-    \item Interface design using HTML and CSS for readability, accessibility, and mobile responsiveness.
-    \item Implementation of arithmetic and scientific functions using JavaScript event handling.
-    \item Creation of modular and reusable code using classes and methods to handle button clicks and display updates.
-    \item Integration of DOM manipulation and data validation to ensure smooth user interaction.
-    \item Development of additional interactive components such as counters and color selectors using event listeners and encapsulated class structures.
-    \item Exploration of Bootstrap for improved UI consistency and rapid component styling.
-    \item Construction of a mood tracker interface using a \texttt{MoodHandler} class to dynamically update emoji states, background color, and descriptive text.
-    \item Application of switch statements and data attributes for cleaner, scalable event-driven logic.
-    \item Incorporation of Font Awesome icons and Bootstrap styling to achieve a polished, professional appearance.
+    \item Introduction to \textbf{Arrow Functions} as a concise syntax for defining functions, contrasting with the traditional \texttt{function} keyword.
+    \item Understanding variable types and the \texttt{typeof} operator—distinguishing between strings, numbers, booleans, null, and undefined values.
+    \item Practice with string declarations using single quotes (\texttt{' '}), double quotes (\texttt{" "}), and template literals (\texttt{` `}) to embed variables and preserve formatting.
+    \item Implementation of string methods: \texttt{length}, \texttt{at()}, \texttt{charAt()}, \texttt{slice()}, \texttt{substring()}, \texttt{split()}, \texttt{trimStart()}, and \texttt{replace()} for efficient text processing.
+    \item Exploration of immutability in strings and the use of concatenation, case manipulation, and replacement operations.
+    \item Introduction to \texttt{const}, \texttt{let}, and variable reassignments; demonstrating the immutability of constants.
+    \item Conditional logic using \texttt{if-else}, equality comparison operators (\texttt{==} and \texttt{===}), and the distinction between loose and strict equality.
+    \item Application of iterative structures — \texttt{for} and \texttt{forEach} loops — to traverse arrays and perform element-wise operations.
+    \item Practice with array methods such as \texttt{sort()}, \texttt{slice()}, \texttt{splice()}, \texttt{toString()}, and \texttt{reverse()} for manipulating list data.
+    \item Creation of small algorithms such as string reversal and array element extraction through JavaScript chaining techniques.
+    \item Understanding the \textbf{DOM (Document Object Model)} and dynamic manipulation of HTML elements using \texttt{document.querySelector()} and \texttt{addEventListener()}.
+    \item Event handling: detecting user clicks and updating \texttt{innerText} and \texttt{data-*} attributes in real time.
+    \item Demonstration through the “\textbf{Basic DOM Interaction}” example where button clicks dynamically alter on-screen text and console logs.
+    \item Introduction to \textbf{Object-Oriented Programming (OOP)} in JavaScript through class definitions, constructors, and methods.
+    \item Implementation of user-defined classes such as \texttt{Animal}, \texttt{Circle}, and \texttt{Student} to represent objects with unique properties and behaviors.
+    \item Use of the \texttt{this} keyword within class methods and creation of multiple instances to demonstrate encapsulation and reusability.
+    \item Building real-world mini-projects to integrate JavaScript logic with UI elements:
+    \begin{itemize}
+        \item \textbf{Button Play Project:} demonstrated dynamic color and counter updates using event listeners and custom \texttt{Counter} class objects.
+        \item \textbf{Mood Selector Application:} utilized \textbf{Bootstrap 5} styling, button groups, and a custom \texttt{MoodHandler} class to change page background, emoji, and mood text based on user input.
+    \end{itemize}
+    \item Integration of external libraries (e.g., Bootstrap CDN) to style and structure user interfaces responsively while maintaining JavaScript-driven interactivity.
 \end{itemize}
 
-This project synthesized all major aspects of front-end development — structure, design, and interactivity. Learners demonstrated a complete development cycle from conceptualization to deployment, gaining hands-on experience in real-world application design and reinforcing the integrated relationship between HTML, CSS, and JavaScript.
+By the end of Week 4, participants achieved fluency in implementing advanced JavaScript logic and manipulating the DOM dynamically. They could construct responsive and interactive applications that incorporated class-based modularity, event handling, and aesthetic UI updates—skills that form the backbone of modern front-end web development.
 
 \vspace{5mm}
 \noindent
-\section{TOOLS AND TECHNOLOGIES USED}
+\section{Tools and Technologies used}
 
 \begin{table}[H]
 \centering
@@ -404,114 +425,108 @@ The training concluded with a comprehensive understanding of web development fun
 \newpage
 \chapter{RESULTS AND DISCUSSIONS}
 
-\noindent
 \section{Overview of the Project Output}
 
-The final project developed during the industrial training was a \textbf{Scientific Web Calculator} built using \textbf{HTML}, \textbf{CSS}, and \textbf{JavaScript}. The objective of the project was to design and implement a responsive and user-friendly calculator capable of performing both basic arithmetic and fundamental scientific operations such as trigonometric, logarithmic, exponential, and square root calculations.
+The final project developed during the industrial training was a \textbf{Scientific Web Calculator}, meticulously implemented using \textbf{HTML5}, \textbf{CSS3}, and \textbf{JavaScript (ES6)}. The objective of this project was to design and deploy a browser-based calculator that performs not only fundamental arithmetic operations but also advanced scientific computations such as trigonometric, logarithmic, exponential, and square root functions. 
 
-The project serves as a practical implementation of front-end web development concepts learned during the training period. It focuses on dynamic user interaction, functional computation through JavaScript logic, and a visually appealing, responsive interface designed using modern CSS styling principles.
+This project aimed to demonstrate the complete front-end development cycle — from conceptual interface design to functional scripting and aesthetic refinement. The calculator was developed as a fully client-side application, meaning it requires no external servers or backend dependencies. The interface is responsive, intuitive, and capable of handling both keyboard and button-based user inputs, ensuring accessibility for different usage styles.
+
+From an educational perspective, the Scientific Calculator serves as a bridge between theoretical programming concepts and real-world web-based implementation. It embodies modularity, clean separation of concerns, and usability principles that are foundational in modern software engineering. The completed calculator was tested across multiple browsers and screen resolutions to confirm its reliability and responsiveness.
 
 \bigskip
 \noindent
 \section{Implementation Results}
 
-The Scientific Calculator was implemented as a modular, browser-based application. The development process was divided into three main stages—structural design, styling, and scripting—each focusing on a specific technological component.
+The Scientific Calculator was realized through a three-tiered development structure encompassing structural design, visual styling, and logical scripting. Each layer of the application played a crucial role in ensuring an elegant balance between visual presentation and computational accuracy.
 
-\bigskip
-\noindent
 \subsection{Interface Layout and Design}
 
-The calculator interface was created using \textbf{HTML5} to define the logical structure of the application. The layout consists of two primary sections:
+The core structure of the calculator was built using \textbf{HTML5}. The markup defined the hierarchical layout consisting of two major divisions — the \textit{main calculator grid} and the \textit{scientific function panel}. This separation allowed logical grouping of basic arithmetic operations and advanced mathematical functions.
+
 \begin{itemize}
-    \item \textbf{Main Calculator Grid:} Includes numeric buttons (0–9), arithmetic operations (+, –, ×, ÷), and special keys such as \textit{AC}, \textit{DEL}, and \textit{=}.
-    \item \textbf{Scientific Function Panel:} Contains buttons for trigonometric functions (\textit{sin}, \textit{cos}, \textit{tan}), logarithmic and exponential functions (\textit{log}, \textit{exp}), square root, and mathematical constants such as \textit{$\pi$}.
+    \item \textbf{Main Calculator Grid:} Designed as a 4x5 grid, it contains all essential arithmetic operations, numeric buttons, and key control features such as \textit{AC (All Clear)}, \textit{DEL (Delete)}, and \textit{= (Equals)}. These controls ensure that both simple and complex expressions can be constructed with minimal effort.
+    \item \textbf{Scientific Function Panel:} Implemented as a vertical grid beside the main calculator, it includes scientific buttons for trigonometric (\texttt{sin}, \texttt{cos}, \texttt{tan}), logarithmic (\texttt{log}), exponential (\texttt{exp}), and root functions (\(\sqrt{\phantom{x}}\)), along with constants like \(\pi\) and brackets for expression grouping.
+
 \end{itemize}
 
-This structure ensures that both standard and scientific computations can be performed from a single, organized interface.
+The use of \texttt{data-*} attributes in HTML elements (\texttt{data-number}, \texttt{data-operation}, etc.) ensures clean mapping between interface buttons and JavaScript event handlers. This approach enhances modularity, readability, and ease of maintenance. Moreover, the semantic structure allows future scalability, such as adding hyperbolic or inverse trigonometric functions without rewriting core logic.
 
-\bigskip
-\noindent
 \subsection{Visual Styling and Responsiveness}
 
-The visual presentation of the calculator was developed using \textbf{CSS3}. The objective was to achieve a modern and intuitive appearance suitable for both desktop and mobile screens. 
+The visual interface was styled using \textbf{CSS3}, with a focus on dark, modern aesthetics complemented by responsive adaptability. The color scheme employs contrasting shades of gray, green, and orange to establish visual hierarchy and highlight interactive elements.
 
-\textbf{Key Features:}
+\textbf{Styling Highlights:}
 \begin{itemize}
-    \item \textbf{Dark Metallic Theme:} The background and button elements utilize dark gray and gradient tones to give a professional, high-contrast appearance.
-    \item \textbf{Neon Green Display:} The calculator output screen is styled with neon green text on a dark background to simulate an LCD effect.
-    \item \textbf{Hover and Click Effects:} Smooth transitions and shadow effects are used to indicate interactivity.
-    \item \textbf{Responsive Layout:} The grid layout adapts to different screen sizes, ensuring usability across devices.
+    \item \textbf{Dark Metallic Theme:} The calculator body uses a gradient combination of \texttt{\#333} and \texttt{\#222} tones, producing a metallic finish that mimics physical devices. Subtle drop shadows create depth and realism.
+    \item \textbf{Neon Green LCD Display:} The output panel utilizes neon green text (\texttt{\#0f0}) on a dark background to evoke a classic digital display effect. The use of the monospace font \texttt{Courier New} ensures consistent digit alignment.
+    \item \textbf{Interactive Button Feedback:} CSS transitions, hover glows, and active click animations are implemented to provide tactile feedback, enriching user experience and interactivity.
+    \item \textbf{Responsive Design:} The grid-based layout adapts seamlessly to various screen widths. On smaller devices, buttons scale proportionally, and margins collapse for optimized spacing.
+    \item \textbf{Color Coding:} Functionally distinct keys are color-coded — operations in orange, scientific functions in green, and control buttons in red — ensuring intuitive usability.
 \end{itemize}
 
-These design elements contribute to a polished user experience, maintaining both functionality and aesthetic appeal.
+By adhering to CSS best practices like box-sizing normalization, gradient backgrounds, and flexible grid templates, the final design achieves both aesthetic refinement and consistent performance across platforms.
 
-\bigskip
-\noindent
 \subsection{Functional Logic and Interactivity}
 
-The computational logic was implemented using \textbf{JavaScript (ES6)}. The calculator operates through an object-oriented approach, encapsulated in a \texttt{Calculator} class responsible for handling user input, updating the display, and evaluating expressions.
+The logical functionality was developed using \textbf{JavaScript (ES6)} with an object-oriented paradigm. A dedicated \texttt{Calculator} class was defined to encapsulate all behavior related to computation, display updates, and input management. This modular approach promotes scalability and simplifies debugging.
 
-\textbf{Core Features Implemented:}
+\textbf{Core Functional Modules:}
 \begin{itemize}
-    \item \textbf{Input Handling:} Captures numeric, operational, and functional button presses using event listeners.
-    \item \textbf{Expression Evaluation:} Mathematical expressions are preprocessed and evaluated using JavaScript’s \texttt{eval()} function with custom preprocessing for trigonometric and logarithmic operations.
-    \item \textbf{Trigonometric Functions in Degrees:} Custom functions such as \texttt{sinDeg()}, \texttt{cosDeg()}, and \texttt{tanDeg()} ensure angle inputs are interpreted in degrees rather than radians.
-    \item \textbf{Error Handling:} Displays “Error” for invalid expressions or undefined results to prevent unexpected behavior.
-    \item \textbf{Dynamic Font Scaling:} The display font size adjusts automatically based on the length of the input or result.
+    \item \textbf{Input Handling:} Each button press triggers an event listener that captures input and updates the display in real-time. Invalid sequences such as consecutive operators are automatically blocked, improving input accuracy.
+    \item \textbf{Mathematical Processing:} Expressions are sanitized and preprocessed before evaluation. Division symbols (\texttt{÷}) are converted to standard operators, and constants like \(\pi\) are replaced by their numerical equivalents.
+
+    \item \textbf{Evaluation with Math.js:} To ensure safe and accurate computation, the project integrates the \texttt{math.js} library. This provides extended mathematical functions, robust parsing, and prevents malicious evaluation through JavaScript’s native \texttt{eval()}.
+    \item \textbf{Custom Trigonometric Handling:} Built-in \texttt{Math.sin()}, \texttt{Math.cos()}, and \texttt{Math.tan()} functions were redefined as \texttt{sinDeg()}, \texttt{cosDeg()}, and \texttt{tanDeg()} to allow degree-based computation, as most end-users expect degree inputs rather than radians.
+    \item \textbf{Error Handling:} The calculator detects various invalid states such as unbalanced parentheses, undefined trigonometric values (e.g., \texttt{tan(90°)}), and overly long inputs. Custom error messages are displayed dynamically within the calculator’s screen.
+    \item \textbf{Dynamic Font Scaling:} A responsive text-scaling system adjusts display font size according to the length of the input or output, ensuring that lengthy expressions remain readable without overflow.
 \end{itemize}
 
-This logic ensures smooth interaction, accurate computation, and a responsive user interface suitable for educational and demonstrative purposes.
+Keyboard event listeners further enhance interactivity, allowing users to perform calculations via standard keyboard keys. The integration of multiple input modalities demonstrates strong attention to user accessibility and interface design principles.
 
-\bigskip
-\noindent
-\subsection{Output Screens}
+\subsection{Output Screens and Demonstrations}
 
-The following figures illustrate the functional output of the developed Scientific Calculator web application:
+The following figures present key screenshots that illustrate the working of the Scientific Calculator web application:
 
 \begin{figure}[H]
     \centering
-    \includegraphics[width=0.45\textwidth, keepaspectratio]{home_calc.png}
-    \caption{Figure 3.1 – Home screen layout of the Scientific Calculator interface.}
-    \label{fig:Calculator Home Screen}
+    \includegraphics[width=0.6\textwidth]{home_calc.png}
+    \caption{Home screen layout of the Scientific Calculator interface showing numeric and scientific buttons.}
+    \label{fig:CalculatorHome}
 \end{figure}
 
 \begin{figure}[H]
     \centering
-    \includegraphics[width=0.45\textwidth, keepaspectratio]{log_calc.png}
-    \caption{Figure 3.2 – Execution of trigonometric and logarithmic operations.}
-    \label{fig:Calculator Logarithmic Operations}
+    \includegraphics[width=0.6\textwidth]{log_calc.png}
+    \caption{Execution of logarithmic and trigonometric functions, demonstrating real-time evaluation and output display.}
+    \label{fig:CalculatorFunctions}
 \end{figure}
 
 \begin{figure}[H]
     \centering
-    \includegraphics[width=0.45\textwidth, keepaspectratio]{error_calc.png}
-    \caption{Figure 3.3 – Error handling and result display for invalid inputs.}
-    \label{fig:Calculator Error Display}
+    \includegraphics[width=0.6\textwidth]{error_calc.png}
+    \caption{Error handling mechanism displaying message output for invalid or undefined inputs.}
+    \label{fig:CalculatorError}
 \end{figure}
 
+The interface ensures that even complex chained operations — for instance, $\sin(30) + \log(100) \times \sqrt{4}$ — can be computed with accuracy and proper visual clarity.
 
-Each interface element was designed to contribute to user accessibility, operational clarity, and accurate computation.
-
-\bigskip
-\noindent
 \section{Discussions and Observations}
 
-Throughout the development process, the following key observations were made:
+During implementation and testing, several noteworthy findings emerged:
 \begin{itemize}
-    \item The separation of structure (HTML), style (CSS), and logic (JavaScript) proved essential for organized and maintainable code.
-    \item Implementing trigonometric functions in degrees required custom conversions from degrees to radians, reinforcing understanding of mathematical transformations in JavaScript.
-    \item Event-driven programming effectively handled user interaction and real-time display updates.
-    \item While the calculator operates entirely on the client side, future enhancements could include persistent history logging or advanced symbolic computation.
+    \item \textbf{Code Modularity:} The decision to separate structure, styling, and logic ensured cleaner workflow and facilitated debugging. It also aligns with the Model-View-Controller (MVC) principle at a conceptual level.
+    \item \textbf{Mathematical Consistency:} Implementing trigonometric functions in degrees provided a valuable understanding of numeric conversions and the importance of input validation in mathematical software.
+    \item \textbf{Client-Side Efficiency:} Because computations occur entirely on the client side, the calculator is fast and lightweight, requiring no server calls or internet connectivity.
+    \item \textbf{Accessibility and UX:} The combination of keyboard and button support improved accessibility for different user demographics. The dark theme reduced eye strain during extended use.
+    \item \textbf{Challenges Faced:} Key challenges included managing invalid expressions, balancing parentheses, and maintaining responsive design integrity when scaling fonts dynamically.
+    \item \textbf{Potential Improvements:} Future versions could include computation history, expression memory, or advanced symbolic operations using extended libraries like \texttt{Algebrite}.
 \end{itemize}
 
-Overall, the project demonstrated how foundational web technologies can be combined to create a fully functional and aesthetically refined application.
+The final testing confirmed that the calculator performs consistently across browsers and devices, with negligible latency or computational lag.
 
-\bigskip
-\noindent
 \section{Summary}
 
-This chapter presented the implementation results and observations for the Scientific Calculator web application. The calculator successfully performs both basic and scientific computations using a clean, interactive interface. The discussion highlighted the key aspects of design, functionality, and usability achieved during the development phase. The results affirm the effectiveness of using HTML, CSS, and JavaScript as introductory tools for practical web application development.
-
+This chapter presented a comprehensive overview of the results and discussions pertaining to the Scientific Web Calculator project. The successful integration of \textbf{HTML}, \textbf{CSS}, and \textbf{JavaScript} produced an interactive, user-friendly, and visually refined web application. The results affirm the importance of modular development, user-centered design, and error-tolerant computation in web-based software engineering. The project serves as a testament to the effectiveness of foundational web technologies in creating functional, aesthetic, and educationally valuable digital tools.
 
 \newpage
 \chapter{CONCLUSION}
