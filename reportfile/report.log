@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.3) (preloaded format=pdflatex 2025.3.31)  13 OCT 2025 22:14
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.3) (preloaded format=pdflatex 2025.3.31)  14 OCT 2025 07:06
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -820,53 +820,51 @@ LaTeX Font Info:    Font shape `T1/ntxtlf/b/n' will be
 [1
 
 ]
-LaTeX Font Info:    Trying to load font information for TS1+ntxtlf on input line 220.
+LaTeX Font Info:    Trying to load font information for TS1+ntxtlf on input line 222.
  (C:\Users\hp\AppData\Local\Programs\MiKTeX\tex/latex/newtx\ts1ntxtlf.fd
 File: ts1ntxtlf.fd 2015/01/18 v1.0 fd file for TS1/ntxtlf
 )
 LaTeX Font Info:    Font shape `TS1/ntxtlf/m/n' will be
-(Font)              scaled to size 12.0pt on input line 220.
+(Font)              scaled to size 12.0pt on input line 222.
 
 
 [2{C:/Users/hp/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/tex-gyre/q-ts1.enc}]
-
-[3]
-
-[4]
-Chapter 2.
-LaTeX Font Info:    Trying to load font information for T1+ntxtt on input line 307.
-(C:\Users\hp\AppData\Local\Programs\MiKTeX\tex/latex/newtx\t1ntxtt.fd
+LaTeX Font Info:    Trying to load font information for T1+ntxtt on input line 238.
+ (C:\Users\hp\AppData\Local\Programs\MiKTeX\tex/latex/newtx\t1ntxtt.fd
 File: t1ntxtt.fd 2012/04/20 v3.1
 )
 LaTeX Font Info:    Font shape `T1/ntxtt/m/n' will be
-(Font)              scaled to size 12.0pt on input line 307.
+(Font)              scaled to size 12.0pt on input line 238.
 Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `ntxtt' (encoding: T1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
 
 
-[5
+[3]
+Overfull \hbox (54.11806pt too wide) in paragraph at lines 242--243
+\T1/ntxtlf/m/n/12 (-20) structs. Train-ing en-gaged learners with DOM se-lec-tion APIs (for ex-ample, \T1/ntxtt/m/n/12 document.querySelector\T1/ntxtlf/m/n/12 (-20) ),
+ []
 
-]
-LaTeX Font Info:    Font shape `T1/ntxtlf/m/it' will be
-(Font)              scaled to size 12.0pt on input line 316.
 
+
+[4]
+
+[5]
 
 [6]
 
 [7]
+Chapter 2.
 
-[8]
+
+[8
+
+]
 
 [9]
-LaTeX Font Info:    Font shape `T1/ntxtlf/m/it' will be
-(Font)              scaled to size 10.95pt on input line 408.
-LaTeX Font Info:    Font shape `T1/ntxtlf/b/it' will be
-(Font)              scaled to size 10.95pt on input line 408.
-
-Underfull \hbox (badness 1117) in paragraph at lines 416--416
-[]\T1/ntxtlf/m/n/12 (+20) Google Chrome De-veloper
+Overfull \hbox (0.94107pt too wide) in paragraph at lines 346--347
+[]\T1/ntxtlf/m/n/12 (-20) In-depth ex-plor-a-tion of Flexbox prop-er-ties: \T1/ntxtt/m/n/12 justify-content\T1/ntxtlf/m/n/12 (-20) , \T1/ntxtt/m/n/12 align-items\T1/ntxtlf/m/n/12 (-20) , \T1/ntxtt/m/n/12 flex-wrap\T1/ntxtlf/m/n/12 (-20) ,
  []
 
 
@@ -874,87 +872,112 @@ Underfull \hbox (badness 1117) in paragraph at lines 416--416
 [10]
 
 [11]
+
+[12]
+Overfull \hbox (15.83827pt too wide) in paragraph at lines 394--395
+[]\T1/ntxtlf/m/n/12 (-20) Extensive string op-er-a-tions us-ing mod-ern JavaS-cript string meth-ods such as \T1/ntxtt/m/n/12 at()\T1/ntxtlf/m/n/12 (-20) , \T1/ntxtt/m/n/12 trimStart()\T1/ntxtlf/m/n/12 (-20) ,
+ []
+
+
+
+[13]
+LaTeX Font Info:    Font shape `T1/ntxtlf/m/it' will be
+(Font)              scaled to size 12.0pt on input line 418.
+LaTeX Font Info:    Font shape `T1/ntxtlf/m/it' will be
+(Font)              scaled to size 10.95pt on input line 418.
+LaTeX Font Info:    Font shape `T1/ntxtlf/b/it' will be
+(Font)              scaled to size 10.95pt on input line 418.
+
+Underfull \hbox (badness 1117) in paragraph at lines 426--426
+[]\T1/ntxtlf/m/n/12 (+20) Google Chrome De-veloper
+ []
+
+
+
+[14]
+
+[15]
 Chapter 3.
 
 
-[12
+[16
 
 ]
 
-[13]
-LaTeX Font Info:    Trying to load font information for TS1+ntxtt on input line 476.
+[17]
+LaTeX Font Info:    Trying to load font information for TS1+ntxtt on input line 488.
  (C:\Users\hp\AppData\Local\Programs\MiKTeX\tex/latex/newtx\ts1ntxtt.fd
 File: ts1ntxtt.fd 2012/04/20 v3.1
 )
 LaTeX Font Info:    Font shape `TS1/ntxtt/m/n' will be
-(Font)              scaled to size 12.0pt on input line 476.
+(Font)              scaled to size 12.0pt on input line 488.
 Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `ntxtt' (encoding: TS1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
 
 
-[14]
-<home_calc.png, id=235, 780.66656pt x 873.2625pt>
+[18]
+<home_calc.png, id=252, 780.66656pt x 873.2625pt>
 File: home_calc.png Graphic file (type png)
 <use home_calc.png>
-Package pdftex.def Info: home_calc.png  used on input line 492.
+Package pdftex.def Info: home_calc.png  used on input line 504.
 (pdftex.def)             Requested size: 277.41719pt x 310.32349pt.
 
 
-[15]
-<log_calc.png, id=241, 792.71156pt x 855.94781pt>
+[19]
+<log_calc.png, id=258, 792.71156pt x 855.94781pt>
 File: log_calc.png Graphic file (type png)
 <use log_calc.png>
-Package pdftex.def Info: log_calc.png  used on input line 499.
+Package pdftex.def Info: log_calc.png  used on input line 511.
 (pdftex.def)             Requested size: 277.41719pt x 299.54704pt.
-<error_calc.png, id=242, 749.80125pt x 837.1275pt>
+<error_calc.png, id=259, 749.80125pt x 837.1275pt>
 File: error_calc.png Graphic file (type png)
 <use error_calc.png>
-Package pdftex.def Info: error_calc.png  used on input line 506.
+Package pdftex.def Info: error_calc.png  used on input line 518.
 (pdftex.def)             Requested size: 277.41719pt x 309.73233pt.
 
 
-[16 <./home_calc.png> <./log_calc.png>]
+[20 <./home_calc.png> <./log_calc.png>]
 
-[17{C:/Users/hp/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/newtx/ntx-ot1-tlf.enc} <./error_calc.png>]
+[21{C:/Users/hp/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/newtx/ntx-ot1-tlf.enc} <./error_calc.png>]
 
-[18]
+[22]
 Chapter 4.
 
 
-[19
+[23
 
 ]
-Overfull \hbox (15.45836pt too wide) in paragraph at lines 580--581
+Overfull \hbox (15.45836pt too wide) in paragraph at lines 592--593
 \T1/ntxtt/m/n/12 khanacademy . org / computing / computer-[]programming / html-[]css$[] \T1/ntxtlf/m/n/12 (-20) [Ac-cessed July 2025]. 
  []
 
 
 
-[20]
-Overfull \hbox (3.69391pt too wide) in paragraph at lines 584--585
+[24]
+Overfull \hbox (3.69391pt too wide) in paragraph at lines 596--597
 []\T1/ntxtlf/m/n/12 (-20) W3Schools. \T1/ntxtlf/m/it/12 (-20) HTML, CSS, and JavaS-cript Tu-tori-als\T1/ntxtlf/m/n/12 (-20) . Avail-able at: []$\T1/ntxtt/m/n/12 https : / / www . w3schools .
  []
 
 
 
-[21] (C:\Users\hp\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstlang1.sty
+[25] (C:\Users\hp\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstlang1.sty
 File: lstlang1.sty 2024/09/23 1.10c listings language file
 ) (C:\Users\hp\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstlang1.sty
 File: lstlang1.sty 2024/09/23 1.10c listings language file
 ) (C:\Users\hp\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstmisc.sty
 File: lstmisc.sty 2024/09/23 1.10c (Carsten Heinz)
 )
-Package hyperref Info: bookmark level for unknown lstlisting defaults to 0 on input line 601.
+Package hyperref Info: bookmark level for unknown lstlisting defaults to 0 on input line 613.
 LaTeX Font Info:    Font shape `T1/ntxtt/m/n' will be
-(Font)              scaled to size 10.0pt on input line 601.
-LaTeX Font Info:    Trying to load font information for T1+txtt on input line 602.
+(Font)              scaled to size 10.0pt on input line 613.
+LaTeX Font Info:    Trying to load font information for T1+txtt on input line 614.
  (C:\Users\hp\AppData\Local\Programs\MiKTeX\tex/latex/txfonts\t1txtt.fd
 File: t1txtt.fd 2000/12/15 v3.1
 )
 LaTeX Font Info:    Font shape `T1/ntxtt/b/n' in size <10> not available
-(Font)              Font shape `T1/txtt/bx/n' tried instead on input line 602.
+(Font)              Font shape `T1/txtt/bx/n' tried instead on input line 614.
 Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `txtt' (encoding: T1).
 (microtype)             For optimal results, create family-specific settings.
@@ -962,52 +985,52 @@ Package microtype Info: Loading generic protrusion settings for font family
 
 
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
-(Font)              scaled to size 10.0pt on input line 625.
-[22
+(Font)              scaled to size 10.0pt on input line 637.
+[26
 
 ]
-Overfull \hbox (19.16673pt too wide) in paragraph at lines 644--653
+Overfull \hbox (19.16673pt too wide) in paragraph at lines 656--665
  [][] 
  []
 
 
 
-[23]
-Underfull \hbox (badness 2088) in paragraph at lines 698--698
+[27]
+Underfull \hbox (badness 2088) in paragraph at lines 710--710
 []\T1/ntxtlf/m/n/12 (+20) Difficulty main-tain-ing uni-
  []
 
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
-(Font)              scaled to size 8.8pt on input line 698.
+(Font)              scaled to size 8.8pt on input line 710.
 
-Underfull \hbox (badness 1199) in paragraph at lines 699--699
+Underfull \hbox (badness 1199) in paragraph at lines 711--711
 []\T1/ntxtlf/m/n/12 (+20) Expression pars-
  []
 
 
 
-[24]
+[28]
 
-[25] (report.aux)
+[29] (report.aux)
  ***********
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2020/03/25>
  ***********
 Package rerunfilecheck Info: File `report.out' has not changed.
-(rerunfilecheck)             Checksum: 834A3CA62197992F0C87F788F44BFF69;4747.
+(rerunfilecheck)             Checksum: E10CEE1DC38324C7D126E15632618D69;4747.
  ) 
 Here is how much of TeX's memory you used:
- 21174 strings out of 473523
- 330460 string characters out of 5716082
+ 21168 strings out of 473523
+ 330300 string characters out of 5716082
  1031215 words of memory out of 5000000
  43784 multiletter control sequences out of 15000+600000
- 622194 words of font info for 179 fonts, out of 8000000 for 9000
+ 621743 words of font info for 174 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 80i,13n,117p,1038b,2219s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 80i,13n,117p,1038b,2221s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/hp/AppData/Local/Programs/MiKTeX/fonts/type1/public/newtx/NewTXMI.pfb><C:/Users/hp/AppData/Local/Programs/MiKTeX/fonts/type1/public/tex-gyre/qtmr.pfb><C:/Users/hp/AppData/Local/Programs/MiKTeX/fonts/type1/public/txfonts/t1xbtt.pfb><C:/Users/hp/AppData/Local/Programs/MiKTeX/fonts/type1/public/txfonts/t1xtt.pfb><C:/Users/hp/AppData/Local/Programs/MiKTeX/fonts/type1/public/txfonts/tcxtt.pfb><C:/Users/hp/AppData/Local/Programs/MiKTeX/fonts/type1/public/newtx/txsys.pfb><C:/Users/hp/AppData/Local/Programs/MiKTeX/fonts/type1/public/newtx/ztmb.pfb><C:/Users/hp/AppData/Local/Programs/MiKTeX/fonts/type1/public/newtx/ztmbi.pfb><C:/Users/hp/AppData/Local/Programs/MiKTeX/fonts/type1/public/newtx/ztmr.pfb><C:/Users/hp/AppData/Local/Programs/MiKTeX/fonts/type1/public/newtx/ztmri.pfb>
-Output written on report.pdf (33 pages, 775373 bytes).
+Output written on report.pdf (37 pages, 786790 bytes).
 PDF statistics:
- 441 PDF objects out of 1000 (max. 8388607)
- 123 named destinations out of 1000 (max. 500000)
+ 461 PDF objects out of 1000 (max. 8388607)
+ 127 named destinations out of 1000 (max. 500000)
  32458 words of extra memory for PDF output out of 35830 (max. 10000000)
 
