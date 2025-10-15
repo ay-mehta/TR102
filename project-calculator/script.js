@@ -1,6 +1,3 @@
-// Import mathjs for safe expression evaluation
-// <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjs/12.4.2/math.min.js"></script>
-
 // Custom trig functions in degrees
 function sinDeg(x) {
     if (typeof x !== 'number' || isNaN(x)) throw new Error('Invalid input for sin');
@@ -25,14 +22,16 @@ function sqrtSafe(x) {
 }
 
 class Calculator {
-    constructor(displayElement) {
+    constructor(displayElement, previousDisplayElement) {
         this.displayElement = displayElement;
+        this.previousDisplayElement = previousDisplayElement;
         this.maxInputLength = 100;
         this.clear();
     }
 
     clear() {
         this.displayValue = '';
+        this.previousExpression = ''; // Clear previous expression
         this.isResult = false;
         this.errorMessage = '';
     }
@@ -51,6 +50,7 @@ class Calculator {
 
         if (this.isResult && !isOperation && !isFunction) {
             this.displayValue = '';
+            this.previousExpression = ''; // Clear previous expression when starting new input
             this.isResult = false;
         } else if (this.isResult && (isOperation || isFunction)) {
             this.isResult = false;
@@ -75,6 +75,9 @@ class Calculator {
         }
 
         try {
+            // Save the current expression before computing
+            this.previousExpression = this.displayValue;
+
             // Validate parentheses
             if (!this.hasBalancedParentheses(this.displayValue)) {
                 throw new Error('Unbalanced parentheses');
@@ -109,11 +112,14 @@ class Calculator {
     }
 
     preprocessExpression(expression) {
-        // Replace ÷ with / and ensure π is treated as a constant
-        let processed = expression.replace(/÷/g, '/').replace(/π/g, 'π');
+        // Replace special characters: ÷ → /, √ → sqrt, π → π
+        let processed = expression
+            .replace(/÷/g, '/')
+            .replace(/√/g, 'sqrt')
+            .replace(/π/g, 'π');
 
         // Basic sanitization: allow numbers, operators, functions, and parentheses
-        processed = processed.replace(/[^0-9+\-*/().^πsincostan√logexp ]/g, '');
+        processed = processed.replace(/[^0-9+\-*/().^πsincostansqrtlogexp ]/g, '');
 
         return processed;
     }
@@ -129,7 +135,11 @@ class Calculator {
     }
 
     updateDisplay() {
+        // Update main display with result or error
         this.displayElement.innerText = this.errorMessage || this.displayValue || '0';
+        // Update secondary display with previous expression
+        this.previousDisplayElement.innerText = this.previousExpression || '';
+        // Adjust font size for main display based on length
         const length = this.displayValue.length;
         this.displayElement.style.fontSize = `clamp(1rem, ${3 - length * 0.05}rem, 2.5rem)`;
     }
@@ -145,14 +155,15 @@ const functionButtons = document.querySelectorAll('[data-function]');
 const constantButtons = document.querySelectorAll('[data-constant]');
 const bracketButtons = document.querySelectorAll('[data-bracket]');
 const displayElement = document.querySelector('[data-display]');
+const previousDisplayElement = document.querySelector('[data-previous-display]');
 
 // Validate DOM elements
-if (!displayElement || !equalsButton || !deleteButton || !allClearButton) {
+if (!displayElement || !previousDisplayElement || !equalsButton || !deleteButton || !allClearButton) {
     console.error('Required DOM elements are missing');
     throw new Error('Calculator initialization failed: Missing DOM elements');
 }
 
-const calculator = new Calculator(displayElement);
+const calculator = new Calculator(displayElement, previousDisplayElement);
 
 // Event listeners
 numberButtons.forEach(button => {
@@ -220,6 +231,10 @@ document.addEventListener('keydown', (event) => {
         calculator.clear();
     } else if (key === '(' || key === ')') {
         calculator.appendText(key);
+    } else if (key === 'p') {
+        calculator.appendText('π');
+    } else if (key === 's') {
+        calculator.appendText('sqrt(', false, true);
     }
     calculator.updateDisplay();
 });

@@ -25,7 +25,7 @@ body {
 .main-grid {
     display: grid;
     grid-template-columns: repeat(4, 100px);
-    grid-template-rows: minmax(120px, auto) repeat(5, 100px);
+    grid-template-rows: minmax(140px, auto) repeat(5, 100px); /* Increased height for dual display */
     gap: 5px;
 }
 
@@ -108,17 +108,29 @@ button[data-all-clear], button[data-delete] {
     grid-column: 1 / -1;
     background-color: #222;
     display: flex;
+    flex-direction: column; /* Stack displays vertically */
     align-items: flex-end;
     justify-content: flex-end;
-    flex-direction: column;
-    padding: 15px;
+    padding: 10px;
     border-radius: 10px;
     box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.5); /* LCD effect */
     overflow: hidden;
 }
 
+.previous-display {
+    color: rgba(0, 255, 0, 0.5); /* Faded neon green for less emphasis */
+    font-size: 1.2rem; /* Smaller font size */
+    text-align: right;
+    font-family: 'Courier New', monospace;
+    white-space: nowrap;
+    overflow-x: auto;
+    width: 100%;
+    padding-right: 5px;
+    min-height: 1.5em; /* Ensure space even when empty */
+}
+
 .display {
-    color: #0f0; /* Neon green text */
+    color: #0f0; /* Neon green text for main display */
     font-size: 2.5rem;
     text-align: right;
     font-family: 'Courier New', monospace;
@@ -126,4 +138,5 @@ button[data-all-clear], button[data-delete] {
     overflow-x: auto;
     width: 100%;
     padding-right: 5px;
+    min-height: 2em;
 }
